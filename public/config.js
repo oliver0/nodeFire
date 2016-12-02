@@ -1,41 +1,8 @@
-/*
-
-########  ######## ########  ##          ###     ######  ########
-##     ## ##       ##     ## ##         ## ##   ##    ## ##
-##     ## ##       ##     ## ##        ##   ##  ##       ##
-########  ######   ########  ##       ##     ## ##       ######
-##   ##   ##       ##        ##       ######### ##       ##
-##    ##  ##       ##        ##       ##     ## ##    ## ##
-##     ## ######## ##        ######## ##     ##  ######  ########
-
-######## ##     ## ####  ######
-   ##    ##     ##  ##  ##    ##
-   ##    ##     ##  ##  ##
-   ##    #########  ##   ######
-   ##    ##     ##  ##        ##
-   ##    ##     ##  ##  ##    ##
-   ##    ##     ## ####  ######
-
-   ######## #### ##       ########
-   ##        ##  ##       ##
-   ##        ##  ##       ##
-   ######    ##  ##       ######
-   ##        ##  ##       ##
-   ##        ##  ##       ##
-   ##       #### ######## ########
-
-*/
-
-// You will need to update these with your own values
-// Do not copy the script tags into here, just the config part
-
-/////////////////////////////////////////////////////////
-// Initialize Firebase
 var config = {
-  apiKey: "AIzaSyAU9OZTcXLQpS0VheZz7Xy-UpqLGBKlXlY",
-  authDomain: "sigma-test-run.firebaseapp.com",
-  databaseURL: "https://sigma-test-run.firebaseio.com",
-  storageBucket: "sigma-test-run.appspot.com",
-  messagingSenderId: "279228406571"
-};
-firebase.initializeApp(config);
+    apiKey: "AIzaSyDzVV9Uwb0mX8KYR7yN-lKM_L1E6QyaCcY",
+    authDomain: "super-secret-secrets-38a93.firebaseapp.com",
+    databaseURL: "https://super-secret-secrets-38a93.firebaseio.com",
+    storageBucket: "super-secret-secrets-38a93.appspot.com",
+    messagingSenderId: "701006718275"
+  };
+  firebase.initializeApp(config);

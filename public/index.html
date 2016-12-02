@@ -45,5 +45,19 @@
         </tr>
       </tbody>
     </table>
+    <form ng-if="sc.secretData.length > 0">
+      <label for="addUserEmail">Email:</label>
+      <input name="addUserEmail" ng-model="sc.newUser.email"  type="text"></input>
+
+      <label for="addClearanceLevel">Clearance Level:</label>
+      <select name="addClearanceLevel" class= "form-control" ng-model="sc.newUser.clearanceLevel" >
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+      </select>
+      <button ng-click="sc.addUser()">Add User</button>
+    </form>
   </body>
 </html>
